@@ -1,0 +1,65 @@
+
+.banner_detail{
+
+position: absolute;
+margin-left: 75px;
+height: 300px;
+margin-top:-310px;
+color: white;
+
+}
+
+.banner{
+    height: 500px;
+
+ width: 100%;
+    object-fit: contain;
+}
+.banner_dis{
+    opacity:1;
+    width: 45rem;
+    font-size: 0.8rem;
+    line-height: 1.9rem;
+    padding-top: 10px;
+    max-width: 460px;
+    height: 200px;
+}
+.banner_end{
+    position: absolute;
+    margin-top: -80PX;
+    height: 80px;
+    width: 100%;
+    border:none;
+    background-color: rgba(0, 0, 0, 0.656) ;
+    box-shadow:linear-gradient(0 -20px 20px 25px rgba(0, 0, 0, 0.644),0 -20px 20px 25px rgba(104, 58, 58, 0.445));
+    /* ackground-image: linear-gradient(rgba(51, 51, 51, 0.8),rgba(1, 51, 51, 1)); */ 
+}
+.banner_title > h1{
+    opacity:1;
+    font-size:3rem;
+   padding-bottom: 0.8rem;
+    font-weight: 800;
+}
+.banner_button{
+    width: 200px;
+    display: flex;
+justify-content: space-between;
+opacity:1;
+}
+.banner_but:hover{
+    opacity: 1;
+    color:black;
+    background-color: white;
+}
+.banner_but{
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+  outline-color: none;
+  border: none;
+    background-color: rgba(51, 51, 51, 0.5);
+  
+    border-radius: 3px;
+    color: rgb(255, 253, 253);
+  
+    transition: all 250ms;
+}
